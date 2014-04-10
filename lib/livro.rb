@@ -4,8 +4,6 @@ class Livro
 	attr_reader :preco, :autor
 	attr_accessor :preco, :autor
 
-
-
 	def initialize(autor, isbn = "1", numero_de_paginas, preco)
 		@autor = autor
 		@isbn = isbn
@@ -16,14 +14,4 @@ class Livro
 	def to_s
 		puts  "Autor: #{@autor}, ISBN: #{@isbn}, Pág: #{@numero_de_paginas}"
 	end
-
-=begin
-	def preco
-		@preco
-	end
-
-	def preco=(preco)
-		@preco = preco
-	end
-=end
 end
