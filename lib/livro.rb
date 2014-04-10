@@ -1,7 +1,5 @@
 # coding: UTF-8
 class Livro
-	attr_writer :preco, :autor
-	attr_reader :preco, :autor
 	attr_accessor :preco, :autor
 
 	def initialize(autor, isbn = "1", numero_de_paginas, preco)
